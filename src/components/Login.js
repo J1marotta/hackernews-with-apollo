@@ -22,7 +22,7 @@ const LOGIN_MUTATION = gql`
 
 class Login extends Component {
   state = {
-    login: true,
+    login: false,
     email: '',
     password: '',
     name: '',
